@@ -18,5 +18,18 @@ public class Main {
         y2=scanner_x1.nextDouble();
         result=Math.sqrt(Math.pow((x2-x1),2)+Math.pow((y2-y1),2));
         System.out.println("Длина отрезка равна = " + result);
+
+        //Task 2
+        double x, result2;
+        System.out.println("Введи своё число");
+        Scanner scanner_x=new Scanner(System.in);
+        x=scanner_x.nextDouble();
+        result2= x%2;
+        if (result2==0)
+            System.out.println("Число "+ x+ " чётное");
+        else
+            System.out.println("Число "+ x+ " нечётное");
+
+
     }
 }
