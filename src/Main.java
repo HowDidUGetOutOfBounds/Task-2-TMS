@@ -30,6 +30,15 @@ public class Main {
         else
             System.out.println("Число "+ x+ " нечётное");
 
+        // Task 3
+        System.out.println("Введи число больше или равно 100");
+        Scanner scanner_x2=new Scanner(System.in);
+        int x3=scanner_x2.nextInt();
+        String str = Integer. toString(x3);
+        int length=str.length();
+        int pos_3=length-3;
+        char n_3=str.charAt(pos_3);
 
+        System.out.println("Третья цифра справа это " + n_3);
     }
 }
